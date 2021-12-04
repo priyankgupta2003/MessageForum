@@ -1,14 +1,15 @@
 # MessageForum
 
-How to Run:
+How to Run php script:
 
-1. Open Xampp(Use the latest version) control panel
-2. Start Apache and Mysql server
-3. Copy the php folder under "C:\xampp\htdocs".
-4. Click on Admin of MySql
-5. Create a Database name "board"
-6. Now click Import >> Choose the sql file >> Go
-7. Insert the user ID, Password, name and email in database
+1. Install latest version of Xampp 
+2. Open Xampp control panel
+3. Start Apache and Mysql server
+4. Copy the php folder under "C:\xampp\htdocs".
+5. Click on Admin of MySql
+6. Create a Database name "board"
+7. Now click Import >> Choose the sql file >> Go
+8. Insert the user ID, Password, name and email in database
     Insert Query Syntax: INSERT INTO `users` (`username`, `password`, `fullname`, `email`) VALUES ('user1', MD5('user1_password'), 'user admin', 'user@mail.com');
 
-Please Note: While inserting the data make sure you are inserting the password in MD5 format otherwise you will get "login failed" error.
+Please Note: While inserting the data in users table, make sure you are inserting the password in MD5 format otherwise you will get "login failed" error.
