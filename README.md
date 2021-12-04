@@ -11,4 +11,4 @@ How to Run:
 7. Insert the user ID, Password, name and email in database
     Insert Query Syntax: INSERT INTO `users` (`username`, `password`, `fullname`, `email`) VALUES ('user1', MD5('user1_password'), 'user admin', 'user@mail.com');
 
-PLease Note: While inserting the data make sure you are inserting the password in MD5 format otherwise you will get login failed error.
+Please Note: While inserting the data make sure you are inserting the password in MD5 format otherwise you will get "login failed" error.
